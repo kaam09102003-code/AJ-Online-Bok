@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Big-Daddy Book - India\'s #1 Cricket & Casino Platform',
+  title: 'AJ Online Book - India\'s #1 Cricket & Casino Platform',
   description: 'Experience the ultimate sports betting and casino gaming platform. Live cricket odds, instant deposits & withdrawals, 24/7 support. Get your Big-Daddy ID now!',
   generator: 'v0.app',
   icons: {
