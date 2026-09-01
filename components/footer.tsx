@@ -84,7 +84,7 @@ export function Footer() {
                 <button
                   onClick={() =>
                     openWhatsApp(
-                      "Hello! I would like to contact Big Daddy Book support."
+                      "Hello! I would like to contact AJ Online Book support."
                     )
                   }
                   className="text-sm text-gray-600 transition hover:text-green-500 dark:text-gray-400"
@@ -130,7 +130,7 @@ export function Footer() {
             <button
               onClick={() =>
                 openWhatsApp(
-                  "Hello! I want to get my Big Daddy Book ID."
+                  "Hello! I want to get my AJ Online Book ID."
                 )
               }
               className="rounded-lg border border-green-500 px-5 py-3 text-sm font-medium text-green-600 transition hover:bg-green-500 hover:text-white dark:text-green-400"
