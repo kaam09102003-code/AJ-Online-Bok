@@ -131,7 +131,7 @@ export function Hero() {
                         </div>
 
                         <h1 className="text-4xl font-bold leading-tight text-black dark:text-white sm:text-5xl lg:text-5xl xl:text-7xl">
-                            ♠ 👑⚜ 𝒜𝒥 Online BOOK ⚜👑 ♣
+                            ♠ 👑⚜ AJ Online BOOK ⚜👑 ♣
                         </h1>
 
                         <h2 className="text-xl font-semibold text-amber-500 sm:text-2xl">
