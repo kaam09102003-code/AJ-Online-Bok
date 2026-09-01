@@ -20,7 +20,7 @@ export function GlassyButton({
 
   const variants = {
     primary:
-      'bg-blue-500/20 border-blue-400/40 text-blue-300 hover:bg-blue-500/30 hover:border-blue-400/60 hover:shadow-lg hover:shadow-blue-500/20',
+      'bg-blue-500/20 border-blue-400/40 text-blue-500 hover:bg-blue-500/30 hover:border-blue-400/60 hover:shadow-lg hover:shadow-blue-500/20',
 
     secondary:
       'bg-amber-500/20 border-amber-400/40 text-amber-300 hover:bg-amber-500/30 hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-500/20',
