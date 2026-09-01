@@ -13,8 +13,8 @@ export function Footer() {
     }
   };
 
-  const openWhatsApp = (message: string) => {
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
+  const openWhatsApp = 918982050056) => {
+    const url = `https://wa.me/${7415030042}?text=${encodeURIComponent(
       message
     )}`;
 
