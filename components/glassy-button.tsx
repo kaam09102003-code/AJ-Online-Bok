@@ -10,7 +10,7 @@ interface GlassyButtonProps {
 
 export function GlassyButton({
   children,
-  phoneNumber = '+918390653661',
+  phoneNumber = '+918982050056',
   message = 'Hello, I would like to generate a new ID and play.',
   variant = 'primary',
   className = '',
