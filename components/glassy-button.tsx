@@ -23,7 +23,7 @@ export function GlassyButton({
       'bg-blue-500/20 border-blue-400/40 text-blue-500 hover:bg-blue-500/30 hover:border-blue-400/60 hover:shadow-lg hover:shadow-blue-500/20',
 
     secondary:
-      'bg-amber-500/20 border-amber-400/40 text-amber-500 hover:bg-amber-500/30 hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-500/20',
+      'bg-amber-500/20 border-amber-400/40 text-amber-700 hover:bg-amber-500/30 hover:border-amber-400/60 hover:shadow-lg hover:shadow-amber-500/20',
   }
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
