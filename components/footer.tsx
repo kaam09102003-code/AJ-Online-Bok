@@ -1,7 +1,7 @@
 "use client";
 
 export function Footer() {
-  const WHATSAPP_NUMBER = "+918380840294";
+  const WHATSAPP_NUMBER = "+918982050056";
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
