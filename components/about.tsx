@@ -36,7 +36,7 @@ export function About() {
             </p>
 
             <div className="flex justify-center lg:justify-start">
-              <GlassyButton variant="secondary" phoneNumber="+918982050056">
+              <GlassyButton variant="secondary" phoneNumber="+917415030042">
                 Get Your AJ Online Book ID Now
               </GlassyButton>
             </div>
