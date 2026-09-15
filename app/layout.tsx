@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
@@ -39,8 +39,23 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="antialiased">
+   <html lang="en">
+  <head>
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=AW-18453085105"
+      strategy="afterInteractive"
+    />
+    <Script id="google-ads-tag" strategy="afterInteractive">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18453085105');
+      `}
+    </Script>
+  </head>
+
+  <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
